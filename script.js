@@ -7,7 +7,7 @@ btn.addEventListener("click",(e)=>{
 	let ageVal=age.value;
 	let nameVal=name.value;
 	if(ageVal==="" || nameVal===""){
-		alert("Please enter valid details.")
+		alert("Please enter valid details")
 		return
 	}
 	// alert(age.value) 
@@ -16,7 +16,7 @@ btn.addEventListener("click",(e)=>{
 		if(ageVal>18){
 			res("Welcome, "+nameVal+". You can vote.")
 		}else{
-			rej("Oh sorry . You aren't old enough.")
+			rej("Oh sorry "+nameVal+". You aren't old enough.")
 		}
 	},4000)
 	})
