@@ -14,7 +14,7 @@ btn.addEventListener("click",(e)=>{
 	const promise = new Promise((res,rej)=>{
 	setTimeout(()=>{
 		if(ageVal>18){
-			res("Welcome, . You can vote.")
+			res("Welcome, "+nameVal+". You can vote.")
 		}else{
 			rej("Oh sorry . You aren't old enough.")
 		}
